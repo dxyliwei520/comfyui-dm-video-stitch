@@ -1,7 +1,7 @@
 [project]
 name = "dm-video-stitch"
 description = "ComfyUI node: stitch multiple video segments (with audio) seamlessly — streaming, constant memory, no OOM. 视频无缝拼接，防 OOM。"
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,6 +22,6 @@ Issues = "https://github.com/dxyliwei520/comfyui-dm-video-stitch/issues"
 # ⚠️ 发布到官方 Registry（registry.comfy.org）前必须填：
 #   1) 到 https://registry.comfy.org 用 GitHub 登录 → 拿到 PublisherId
 #   2) 把它填到下面
-PublisherId = "REPLACE_WITH_YOUR_PUBLISHER_ID"
+PublisherId = "dxyliwei520"
 DisplayName = "DM Video Stitch (无缝拼接·防OOM)"
 Icon = ""

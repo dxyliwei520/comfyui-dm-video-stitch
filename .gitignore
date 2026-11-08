@@ -6,3 +6,5 @@ __pycache__/
 *.token
 .env
 .env.*
+node.zip
+.signed-url.txt
