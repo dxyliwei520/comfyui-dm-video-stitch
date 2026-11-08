@@ -1,7 +1,7 @@
 [project]
 name = "dm-video-stitch"
 description = "ComfyUI node: stitch multiple video segments (with audio) seamlessly — streaming, constant memory, no OOM. 视频无缝拼接，防 OOM。"
-version = "1.0.1"
+version = "1.0.2"
 license = { file = "LICENSE" }
 readme = "README.md"
 requires-python = ">=3.10"

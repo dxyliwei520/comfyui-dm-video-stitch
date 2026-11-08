@@ -1,0 +1,11 @@
+# 发布包只放「运行时要用的东西」，开发/发布用文件不进 registry 归档
+tools/
+PUBLISH.md
+publish.ps1
+publish-registry.ps1
+publish-with-token.ps1
+custom-node-list.json
+.registry-token
+.signed-url.txt
+node.zip
+# 说明文档保留 README.md / LICENSE / examples/（示例工作流有用）
