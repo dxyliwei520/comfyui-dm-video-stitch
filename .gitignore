@@ -1,3 +1,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+# 发布用的 registry token（绝不提交）
+.registry-token
+*.token
+.env
+.env.*
