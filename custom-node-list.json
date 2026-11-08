@@ -1,0 +1,16 @@
+{
+  "custom_nodes": [
+    {
+      "author": "dxyliwei520",
+      "title": "DM Video Stitch (视频无缝拼接 · 防OOM)",
+      "reference": "https://github.com/dxyliwei520/comfyui-dm-video-stitch",
+      "files": [
+        "https://github.com/dxyliwei520/comfyui-dm-video-stitch/archive/refs/heads/main.zip"
+      ],
+      "install_type": "git-clone",
+      "description": "把多段视频（含音频）无缝拼成一条：流式处理、内存恒定（实测 100 段仅 900MB，老做法要 22GB）、段数几乎不限。支持段间重叠帧裁切(SCAIL2 式)与交叉淡化两种衔接，自动归一化分辨率/fps/10bit。",
+      "version": "1.0.0",
+      "nodename_pattern": "^DMVideoStitch"
+    }
+  ]
+}

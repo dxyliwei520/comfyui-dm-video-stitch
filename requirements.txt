@@ -1,0 +1,4 @@
+# 无额外 pip 依赖。
+# 本节点用到 PyAV（av）——ComfyUI 本体已自带；并调用系统 ffmpeg.exe（找不到时设 DM_FFMPEG 环境变量）。
+# av>=10.0
+# 如需自行安装： pip install av
